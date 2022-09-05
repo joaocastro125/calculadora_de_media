@@ -11,7 +11,7 @@ if(resultadoFinal>=10){
     document.querySelector('.resultado').innerHTML="aprovado"
     document.querySelector('.resultado').innerHTML="aprovado:"+resultadoFinal
 }
-else if(resultadoFinal>=5){
+else if(resultadoFinal<=5){
     document.querySelector('.resultado').innerHTML="esta de recuperação:"+resultadoFinal
 }
 else{
