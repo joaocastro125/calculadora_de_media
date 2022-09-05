@@ -7,11 +7,11 @@ let quartoSemestre=Number(prompt("informe nota do quartoSemestre:"))
 let resultadoFinal=Number((primeiroSemestre+segundoSemestre+terceiroSemestre+quartoSemestre))/4
 let notaFracionada=Number(resultadoFinal.toFixed(1))
 
-if(resultadoFinal>=10){
+if(resultadoFinal>=8){
     document.querySelector('.resultado').innerHTML="aprovado"
     document.querySelector('.resultado').innerHTML="aprovado:"+resultadoFinal
 }
-else if(resultadoFinal>5){
+else if(resultadoFinal>=5){
     document.querySelector('.resultado').innerHTML="esta de recuperação:"+resultadoFinal
 }
 else{
